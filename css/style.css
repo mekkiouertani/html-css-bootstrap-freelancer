@@ -10,6 +10,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    width: 100%;
+}
 /*************************************************
     
  *************************************************/
@@ -30,3 +33,4 @@ h1{
 #start a:hover{
   text-decoration: underline;  
 }
+
