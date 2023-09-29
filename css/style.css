@@ -25,12 +25,11 @@ h1{
     font-size: 3em
 }
 
-.box_image{
-    max-width: 60%;
-    margin: 0px auto;
-}
 
-#start a:hover{
+a:hover{
   text-decoration: underline;  
 }
 
+/*************************************************
+    
+ *************************************************/
