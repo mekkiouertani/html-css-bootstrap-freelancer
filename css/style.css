@@ -29,7 +29,25 @@ a:hover{
   text-decoration: underline;  
 }
 
+.fa-solid.fa-star{
+    transition: 2s;
+}
 
+.fa-solid.fa-star:hover{
+    color: var(--bs-secondary);
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+   from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+
+
+}
 /*************************************************
     
  *************************************************/
