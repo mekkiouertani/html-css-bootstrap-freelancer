@@ -1,0 +1,32 @@
+
+/*************************************************
+    UTILITIES
+ *************************************************/
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*************************************************
+    
+ *************************************************/
+.line{
+    width: 30%;
+    height: 3px;
+}
+
+h1{
+    font-size: 3em
+}
+
+.box_image{
+    max-width: 60%;
+    margin: 0px auto;
+}
+
+#start a:hover{
+  text-decoration: underline;  
+}
