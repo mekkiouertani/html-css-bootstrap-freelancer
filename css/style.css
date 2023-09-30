@@ -31,7 +31,7 @@ a:hover{
 
 /* ANIMATION STAR */
 .fa-solid.fa-star{
-    transition: 2s;
+    transition: 2s ease-in;
 }
 
 .star-span:hover{
@@ -56,18 +56,63 @@ a:hover{
     }
 }
 .fa-solid.fa-star:hover{
-    
     animation: spin 2s linear infinite;
 }
 
 @keyframes spin{
-   from{
+   0%{
         transform: rotate(-360deg);
     }
     to{
         transform: rotate(0deg);
     }
 }
+
+.line{
+    position:relative;
+}
+
+.stars-left{
+    position: absolute;
+    bottom: 10px;
+    right:0;
+    transition: 2s ease-out;
+    opacity: 0;}
+
+.stars-right{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    transition: 2s ease-out;
+    opacity: 0;
+}
+
+#start:hover .sct-1 .stars-left{
+    opacity: 1;
+}
+#start:hover .sct-1 .stars-right{
+    opacity: 1;
+}
+#portfolio:hover .sct-2 .stars-left{
+    opacity: 1;
+}
+#portfolio:hover .sct-2 .stars-right{
+    opacity: 1;
+}
+#about:hover .sct-3 .stars-left{
+    opacity: 1;
+}
+#about:hover .sct-3 .stars-right{
+    opacity: 1;
+}
+#contact:hover .sct-4 .stars-left{
+    opacity: 1;
+}
+#contact:hover .sct-4 .stars-right{
+    opacity: 1;
+}
+
+
 
 
 /*************************************************
