@@ -11,7 +11,7 @@ body{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 /*************************************************
     
@@ -48,16 +48,27 @@ a:hover{
     opacity: 0;
     transition: 1s;
 }
+
 .my-card:hover{
-    filter: contrast(0.5);
+    transform: scale(1.05);
 }
 
-.my-card:hover .fa-solid.fa-plus{
-    opacity: 1;
-    transform: scale(11);
+.my-img-card:hover:after{
+    content: '+';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    bottom: 0;
+    right: 12px;
+    border-radius: 5px;
+    background-color:rgba(56, 151, 107, 0.5);
+    font-size: 20em;
+    color: white;
+    cursor:pointer;
 }
-
-
 
 /* ANIMATION STAR */
 .fa-solid.fa-star{
